@@ -19,4 +19,4 @@ if __name__ == "__main__":
     plt.figure()
     plt.plot(time_x, heartrate_normal)
     plt.show()
-    plt.savefig('final_simulation.png')
+    plt.savefig('./final_output/final_simulation.png')
