@@ -2,8 +2,8 @@ from typing import List
 import random
 import matplotlib.pyplot as plt
 
-class normal_heart():
-    def normal_heartbeat (
+class exercise_heart():
+    def exercise_heartbeat (
         self,
         heart_average: int,
         heartrate_list: List,
@@ -42,4 +42,4 @@ if __name__ == "__main__":
     plt.plot(time_x, heartrate_normal)
     plt.show()
     plt.savefig('a.png')
-    #plt.plot(time_x, np.transpose(final))
+    #plt.plot(time_x, np.transpose(final))z

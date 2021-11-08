@@ -43,7 +43,7 @@ if __name__ == "__main__":
     plt.figure()
     plt.plot(time_x, heartrate_normal)
     plt.show()
-    plt.savefig('a.png')
+    plt.savefig('./final_output/normal.png')
     #plt.plot(time_x, np.transpose(final))
     
     
